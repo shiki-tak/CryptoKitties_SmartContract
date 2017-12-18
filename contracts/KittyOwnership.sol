@@ -7,6 +7,7 @@ pragma solidity ^0.4.16;
 
 import "./KittyBase.sol";
 import "./ERC721.sol";
+import "./ERC721Metadata.sol";
 
 contract KittyOwnership is KittyBase, ERC721 {
 

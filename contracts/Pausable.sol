@@ -3,10 +3,10 @@
  * @dev Base contract which allows children to implement an emergency stop mechanism.
  */
 
- pragma solidity ^0.4.16;
+pragma solidity ^0.4.16;
 
- import  "./Ownable.sol";
- 
+import "./Ownable.sol";
+
 contract Pausable is Ownable {
   event Pause();
   event Unpause();

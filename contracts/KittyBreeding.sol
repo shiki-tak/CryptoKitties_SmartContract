@@ -4,6 +4,7 @@
 pragma solidity ^0.4.16;
 
 import "./KittyOwnership.sol";
+import "./GeneScienceInterface.sol";
 
 contract KittyBreeding is KittyOwnership {
 

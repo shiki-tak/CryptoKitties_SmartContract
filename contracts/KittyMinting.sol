@@ -2,6 +2,7 @@
 pragma solidity ^0.4.16;
 
 import "./KittyAuction.sol";
+import "./GeneScienceInterface.sol";
 
 contract KittyMinting is KittyAuction {
 
